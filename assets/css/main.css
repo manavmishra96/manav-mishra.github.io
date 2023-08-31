@@ -4190,3 +4190,16 @@ input, select, textarea {
 	width: 30%;
 	min-width: 330px;
 }
+
+@media screen and (max-width: 736px) {
+	.home-features-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.home-features-item > .button {
+		margin: 0;
+	}
+}
